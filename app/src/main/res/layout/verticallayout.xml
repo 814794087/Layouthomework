@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:andorid="http://schemas.android.com/apk/res/android"
+    andorid:orientation="vertical"
+    andorid:layout_width="match_parent"
+    andorid:layout_height="match_parent">
+
+    <Button
+        andorid:layout_width="wrap_content"
+        andorid:layout_height="wrap_content"
+        andorid:id="@+id/vertical_button1"
+        andorid:text="Button1 !"
+        andorid:textSize="15dp"
+        andorid:layout_marginTop="15px"
+        andorid:textAllCaps="false"/>
+
+    <Button
+        andorid:layout_width="wrap_content"
+        andorid:layout_height="wrap_content"
+        andorid:id="@+id/vertical_button2"
+        andorid:text="Button2 !"
+        andorid:textSize="15dp"
+        andorid:layout_marginTop="15px"
+        andorid:textAllCaps="false"/>
+
+    <Button
+        andorid:layout_width="wrap_content"
+        andorid:layout_height="wrap_content"
+        andorid:id="@+id/vertical_button3"
+        andorid:text="Button3 !"
+        andorid:textSize="15dp"
+        andorid:layout_marginTop="15px"
+        andorid:textAllCaps="false"/>
+</LinearLayout>

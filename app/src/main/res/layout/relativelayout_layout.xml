@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center">
+
+    <Button
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:id="@+id/align_parent_button"
+        android:text="与父布局相对布局"/>
+    <Button
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:id="@+id/control_is_relative_first"
+        android:layout_toRightOf="@+id/align_parent_button"
+        android:text="控件相对布局1"/>
+    <Button
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:id="@+id/control_is_relative_second"
+        android:layout_below="@+id/align_parent_button"
+        android:text="控件相对布局2"/>
+
+    <Button
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/align_parent_button"
+        android:layout_toRightOf="@+id/align_parent_button"
+        android:id="@+id/align_button"
+        android:text="Nothing!"/>
+
+      </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/backup"
+            android:text="返回"/>
+    </RelativeLayout>
+</RelativeLayout>
+
+
